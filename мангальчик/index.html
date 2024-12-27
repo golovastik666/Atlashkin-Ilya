@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OSETRINA</title>
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <header class="header container">
+      <img
+        class="header__logo"
+        src="images/logo fish.png"
+        alt="Логотип"
+        width="130"
+        height="100"
+      />
+      <h1 class="header__title">OSETRINA</h1>
+      <a href="login/registration.html" class="menu__link"
+        >Вход / Регистрация</a
+      >
+      <section class="login">
+        <form action="/">
+          <h3>Вход / Регистрация</h3>
+          <input
+            type="tel"
+            name="phone"
+            placeholder="Номер телефона"
+            required
+          />
+          <input
+            type="password"
+            name="password"
+            placeholder="Пароль"
+            required
+          />
+          <button>Войти</button>
+        </form>
+      </section>
+      <nav class="header__menu">
+        <ul class="menu">
+          <li class="menu__item"><a href="#" class="menu__link">Модели</a></li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Покупателям</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Владельцам</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">O компании</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Контактные данные</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main container">
+      <section>
+        <div class="popular_models">
+          <h2>Наиболее популярные предложения</h2>
+          <img
+            class="popular_furnace"
+            src="images/Mangal.jpg"
+            alt="Mangal"
+            width="750"
+          />
+          <p><a href="#">О модели</a></p>
+        </div>
+      </section>
+      <section class="model">
+        <h2 class="model__title">Модельный ряд</h2>
+        <ul class="model__list">
+          <li class="model__list-item">
+            <img
+              class="model__img"
+              src="images/King furnace.png"
+              alt="King_furnace"
+              width="150"
+            />
+            <p class="model__furnace">Царь-печь</p>
+            <span class="model__price"> 200 000 руб.</span>
+            <a class="model__link" href="#"> Подробнее</a>
+          </li>
+          <li class="model__list-item">
+            <img
+              class="model__img"
+              src="images/Module furnace.jpg"
+              alt="Module_furnace"
+              width="150"
+            />
+            <p class="model__furnace">Модульная печь</p>
+            <span class="model__price"> 350 000 руб.</span>
+            <a class="model__link" href="#"> Подробнее</a>
+          </li>
+        </ul>
+      </section>
+      <section class="about">
+        <div class="about__wrap-left">
+          <h2 class="about__title">О компании</h2>
+          <p>
+            OSETRINA — уникальный магазин мангалов, где каждый найдет идеальный
+            инструмент для приготовления блюд на открытом огне. Мы предлагаем не
+            просто мангалы, а настоящие произведения искусства, которые станут
+            центром вашего отдыха и общения с друзьями и семьей.
+          </p>
+        </div>
+        <div class="about__wrap-right">
+          <img
+            class="about__image"
+            src="images/mangal_shop.jpg"
+            alt="Фото магазина"
+            width="500"
+            height="200"
+          />
+        </div>
+      </section>
+    </main>
+    <footer class="footer container">
+      <h2 class="creator">Разработчик</h2>
+      <p class="name">Атлашкин Илья ЭК-31</p>
+    </footer>
+  </body>
+</html>
